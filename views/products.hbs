@@ -1,0 +1,20 @@
+{{#extend "stylesheets"}}
+{{/extend}}
+  <div class="page recipes">
+    {{> nav title='Browse' black=true}}
+
+    <div class="content-scrollable">
+      <div class="list-recipes">
+        {{#each products}}
+          {{#if highlighted}}
+            {{> productItem item=this size='large'}}
+          {{else}}
+            {{> productItem item=this size='small'}}
+          {{/if}}
+        {{/each}}
+      </div>
+    </div>
+
+  </div>
+{{#extend "scripts"}}
+{{/extend}}

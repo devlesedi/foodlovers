@@ -1,0 +1,16 @@
+  <div class="page recipe">
+    {{>nav title='Search Food' black=true back=true from=from}}
+
+    <div class="image-recipe" style="background-image: url('{{item.image}}')"></div>
+
+    <div class="attribution-recipe js-uncollapse">
+      <h1 class="title-recipe">Search for</h1>
+      <div class="metadata-wrapper">
+        <form method="POST" action="/search">
+          <input type="search" name="q" id="search" placeholder="Search" />
+        </form>
+      </div>
+  </div>
+{{#extend "scripts"}}
+
+{{/extend}}

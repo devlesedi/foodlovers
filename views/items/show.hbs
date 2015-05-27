@@ -1,0 +1,51 @@
+  <div class="page recipe">
+    {{>nav title='Food Item' black=true back=true from=from}}
+
+    <div class="image-recipe" style="background-image: url('{{item.image}}')"></div>
+
+    <div class="attribution-recipe js-uncollapse">
+      <h1 class="title-recipe">{{item.name}}</h1>
+      <div class="metadata-wrapper">
+        <p class="description-recipe">{{item.description}}</p>
+        <span class="source">user.name</span>
+        <span class="time">{{item.publishDate}}</span>
+      </div>
+
+      <div class="btns-group">
+        <a data-toggle="make" class="btn-secondary no-state js-show-recipe">Make It</a>
+        <a data-toggle="feed" class="btn-secondary no-state js-show-feed">Pictures</a>
+      </div>
+    </div>
+
+
+    <div class="content-scrollable static-nav make-scrollable">
+      <a class="btn-tertiary js-share"><span class="icon-camera"></span> Share that you made this</a>
+
+      <h2 class="list-title">Ingredients</h2>
+      <ul class="list-ingredients">
+        
+      </ul>
+
+      <h2 class="list-title">Directions</h2>
+      <ol class="list-directions">
+        
+          <li class="item-direction">
+          ...
+          </li>
+      </ol>
+    </div>
+
+    <div class="content-scrollable static-nav feed-scrollable">
+      <a class="btn-tertiary js-share"><span class="icon-camera"></span> Share that you made this</a>
+      <div class="list-activities">
+        
+      </div>
+    </div>
+  </div>
+{{#extend "scripts"}}
+<script>
+  $(function() {
+    $('.page').lesh_flyview();
+  });
+</script>
+{{/extend}}
