@@ -82,14 +82,14 @@ CREATE TABLE IF NOT EXISTS store__c (
   );
 
 INSERT INTO campaign (id, name, description, image__c, type, status) VALUES
-    (1, '$10 Off Case of Chocolate Stout', 'Get $10.00 off of a case of Chocolate Stout that is sure to leave you satisfied.', 'https://node-goto.s3.amazonaws.com/1429732839959', 'Offer', 'In Progress'),
-    (2, '10% of EcoTruffles', 'Twice as much Eco!', 'https://node-goto.s3.amazonaws.com/1429732877258', 'Offer', 'In Progress'),
-    (3, '10% off EcoChocolate: Fair Trade and Organic Chocolates', '0% off chocolate that makes you feel as good as they tastes! Fair Trade and Organic chocolates assortment...', 'https://node-goto.s3.amazonaws.com/1429732907404', 'Offer', 'In Progress'),
-    (4, 'Buy 2 Get 1 Free: Dandelion Chocolate for Connoisseurs', 'Purists, Foodies and Afficionados: Buy 2 Bars Get 1 Free', 'https://node-goto.s3.amazonaws.com/1429732943024', 'Offer', 'In Progress'),
-    (5, 'Buy 4 Get 6: Best of San Francisco', 'Buy 4, get 6 of of the city''s finest native chocolatiers, old and new: Tcho, Dandelion, Recchiutti, Ghirardelli, Sharffenburger, Guittard.', 'https://node-goto.s3.amazonaws.com/1429732981048', 'Offer', 'In Progress'),
-    (6, 'Free Shipping on Truffles for Mother''s Day', 'Free Shipping for all Mother’s Day gifts places >72 hours before Sunday, May 11', 'https://node-goto.s3.amazonaws.com/1429733007963', 'Offer', 'In Progress'),
-    (7, 'Free Shipping on Wine & Chocolate Pairings', 'Free Shipping on all wine, champagne, and chocolate pairings.', 'https://node-goto.s3.amazonaws.com/1429733035184', 'Offer', 'In Progress'),
-    (8, 'Nuts about nuts: 30% off mixed chocolate covered nuts', 'Are you nuts for nuts?', 'https://node-goto.s3.amazonaws.com/1429733095957', 'Offer', 'In Progress');
+    (1, 'Sausage And Cheese French Bread Pizza', 'Get $10.00 off of Sausage And Cheese French Bread Pizza', 'https://vgbots.s3.amazonaws.com/1433636604664', 'Offer', 'In Progress'),
+    (2, '10% of Cristina’s Quick And Easy Pizza Dough', 'Twice as much Eco!', 'https://vgbots.s3.amazonaws.com/1433637118791', 'Offer', 'In Progress'),
+    (3, '10% off Caramelized Onion & Prosciutto Pizza', 'Caramelized Onion & Prosciutto Pizza...', 'https://vgbots.s3.amazonaws.com/1433637198157', 'Offer', 'In Progress'),
+    (4, 'Buy 2 Get 1 Free: Kimchi Pork Belly Pizza', 'Purists, Foodies and Afficionados: Buy 2 Bars Get 1 Free', 'https://vgbots.s3.amazonaws.com/1433637292770', 'Offer', 'In Progress'),
+    (5, 'Buy 4 Get 6: Bbq Chicken And Cilantro French Bread Pizza', 'Buy 4, get 6 of of the city''s finest native chocolatiers, old and new: Tcho, Dandelion, Recchiutti, Ghirardelli, Sharffenburger, Guittard.', 'https://vgbots.s3.amazonaws.com/1433637403335', 'Offer', 'In Progress'),
+    (6, 'Grilled Pizza With Harissa And Herb Salad', 'Grilled Pizza With Harissa And Herb Salad', 'https://vgbots.s3.amazonaws.com/1433637659952', 'Offer', 'In Progress'),
+    (7, 'Three-Cheese Pizza With Pancetta And Mushrooms', 'Three-Cheese Pizza With Pancetta And Mushrooms.', 'https://vgbots.s3.amazonaws.com/1433637741305', 'Offer', 'In Progress'),
+    (8, 'Chocolate Pizza', 'Are you nuts?', 'https://vgbots.s3.amazonaws.com/1433637818562', 'Offer', 'In Progress');
 
 INSERT INTO product2 (id, name, description, image__c) VALUES
     (1, 'Caramelized Almonds', 'Addictive treats from the popular new boutique chocolatier in San Francisco''s Mission District.', 'https://s3-us-west-1.amazonaws.com/sfdc-demo/nibs/feve1.jpg'),
